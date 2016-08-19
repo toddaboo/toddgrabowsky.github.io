@@ -29,30 +29,30 @@ sass:
 #google-analytics: UA-XXXXX-Y
 
 # Social Links
-#email:             email
+#email:              email
 #google.plus:        username
 twitter:            toddaboo
 facebook:           todgrabowsky
 github:             toddgrabowsky
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-linkedin:          todgrabowsky
-#xing:              username
+#stackoverflow:      123456/username   from a "http://stackoverflow.com/users/123456/username" link
+linkedin:           todgrabowsky
+#xing:               username
 #instagram:          username
-#lastfm:            username
-#tumblr:            username
-#pinterest:         username
-#foursquare:        username
+#lastfm:             username
+#tumblr:             username
+#pinterest:          username
+#foursquare:         username
 #steam:              username
-#dribbble:          username
-#youtube:           username
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
-#behance:           username
+#dribbble:           username
+#youtube:            username
+#soundcloud:         username
+#weibo:              username
+#flickr:             username
+#codepen:            username
+#keybase:            username
+#xmpp:               username@server.com
+#hackernews:         username
+#behance:            username
 
 # Gems
 gems:
