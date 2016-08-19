@@ -332,7 +332,7 @@ canvas {
     overflow: hidden;
     li {
       display: inline-block;
-      background: #585b63;
+      background: $overlay-color; /*background: #585b63;*/
       margin-right: 10px;
       vertical-align: middle;
       -webkit-transform: translateZ(0);
