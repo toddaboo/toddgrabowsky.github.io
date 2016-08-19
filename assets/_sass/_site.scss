@@ -157,7 +157,7 @@ canvas {
 
 .overlay {
   position: fixed;
-  background: #585b63; /*background: $overlay-color;*/
+  background: $overlay-color;
   top: 0;
   right: 0;
   bottom: 0;
@@ -373,7 +373,7 @@ canvas {
         }
       }
       &:nth-child(odd) {
-        background: $overlay-color;
+        background: #585b63; /*background: $overlay-color;*/
       }
       &:last-child {
         margin-right: 0;
