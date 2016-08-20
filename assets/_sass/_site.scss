@@ -372,20 +372,25 @@ canvas {
           transform: scaleY(1);
         }
       }
-      &:nth-child(1) {
-        background: #27AAE1; /*background: $overlay-color;*/
+
+      /*&:nth-child(odd) {
+        background: $overlay-color;
+      }*/
+
+      &:nth-child(1):before {
+        background: #27AAE1;
       }
-      &:nth-child(2) {
-        background: #FFDE17; /*background: $overlay-color;*/
+      &:nth-child(2):before {
+        background: #FFDE17;
       }
-      &:nth-child(3) {
-        background: #2BB673; /*background: $overlay-color;*/
+      &:nth-child(3):before {
+        background: #2BB673;
       }
-      &:nth-child(4) {
-        background: #ED1C24; /*background: $overlay-color;*/
+      &:nth-child(4):before {
+        background: #ED1C24;
       }
-      &:nth-child(5) {
-        background: #7F3F98; /*background: $overlay-color;*/
+      &:nth-child(5):before {
+        background: #7F3F98;
       }
       &:last-child {
         margin-right: 0;
