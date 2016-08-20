@@ -372,8 +372,20 @@ canvas {
           transform: scaleY(1);
         }
       }
-      &:nth-child(odd) {
-        background: #585b63; /*background: $overlay-color;*/
+      &:nth-child(1) {
+        background: #27AAE1; /*background: $overlay-color;*/
+      }
+      &:nth-child(2) {
+        background: #FFDE17; /*background: $overlay-color;*/
+      }
+      &:nth-child(3) {
+        background: #2BB673; /*background: $overlay-color;*/
+      }
+      &:nth-child(4) {
+        background: #ED1C24; /*background: $overlay-color;*/
+      }
+      &:nth-child(5) {
+        background: #7F3F98; /*background: $overlay-color;*/
       }
       &:last-child {
         margin-right: 0;
