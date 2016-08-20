@@ -9,6 +9,7 @@ layout: compress
 
   <div class="block-left">
     <div class="content">
+      <div id="particle-canvas"></div>
       <div class="main-info">
         <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/{{ site.logo }}"></a>
         <h1>
@@ -20,7 +21,7 @@ layout: compress
         {% include social-links.html %}
       </div>
     </div>
-    <canvas></canvas>
+    <!--<canvas></canvas>-->
   </div>
 
   <div class="block-right">
@@ -39,5 +40,19 @@ layout: compress
   {% include overlay.html %}
   {% include scripts.html %}
   <script src="{{ site.url }}/assets/js/canvas.js"></script>
+  <script type="text/javascript" src="{{ site.url }}/assets/js/particle-network.min.js"></script>
+  <script type="text/javascript">
+    var canvasDiv = document.getElementById('particle-canvas');
+    var options = {
+      particleColor: '#888',
+      background: '#fff',
+      interactive: true,
+      speed: 'medium',
+      density: 'high'
+    };
+    var particleCanvas = new ParticleNetwork(canvasDiv, options);
+
+    var canvas = document.getElementsByTagName("canvas")[0];
+  </script>
 </body>
 </html>
