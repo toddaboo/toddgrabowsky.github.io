@@ -620,10 +620,6 @@ canvas {
       &:first-child {
         margin-top: 20px;
       }
-      &:hover {
-        color: $logoblue; /*#4dbe7a;*/
-        border-bottom: 1px dotted $logoblue;
-      }
     }
   }
 }
@@ -674,8 +670,8 @@ canvas {
     a {
       color: $logoblue;
       &:hover {
-        color: $logoblue; /*#4dbe7a;*/
-        border-bottom: 1px dotted $logoblue;
+        color: $logored; /*#4dbe7a;
+        border-bottom: 1px dotted $logoblue;*/
       }
     }
     em {
@@ -810,7 +806,6 @@ canvas {
     ul > li {
       margin-bottom: 10px;
     }
-    li > a
   }
   .date-highlight {
     margin: 80px 0 40px;
