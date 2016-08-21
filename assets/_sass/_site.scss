@@ -88,12 +88,12 @@ canvas {
   &:hover {
     border-color: $logoblue;
     &:before {
-      border-color: $logoblue;
+      border-color: $logoyellow;
     }
     span {
-      border-color: $logoblue;
+      border-color: $logogreen;
       &:before {
-        border-color: $logoblue;
+        border-color: $logored;
       }
     }
   }
@@ -134,7 +134,7 @@ canvas {
     border-color: $logoblue;
     &:before,
     &:after {
-      border-color: $logored;
+      border-color: $logoblue;
     }
   }
 }
