@@ -86,14 +86,14 @@ canvas {
     }
   }
   &:hover {
-    border-color: $purple;
+    border-color: $logoblue;
     &:before {
-      border-color: $purple;
+      border-color: $logoblue;
     }
     span {
-      border-color: $purple;
+      border-color: $logoblue;
       &:before {
-        border-color: $purple;
+        border-color: $logoblue;
       }
     }
   }
@@ -131,10 +131,10 @@ canvas {
     background: $white;
   }
   &:hover {
-    border-color: $purple;
+    border-color: $logoblue;
     &:before,
     &:after {
-      border-color: $purple;
+      border-color: $logoblue;
     }
   }
 }
@@ -354,7 +354,7 @@ canvas {
         left: 0;
         right: 0;
         bottom: 0;
-        background: $purple;
+        background: $logoblue;
         -webkit-transform: scaleY(0);
         transform: scaleY(0);
         -webkit-transform-origin: 50% 100%;
@@ -438,7 +438,7 @@ canvas {
       -ms-transform: none;
       -o-transform: none;
       transform: none;
-      background: $purple;
+      background: $logoblue;
       left: 0;
       width: 0px;
       height: 0px;
@@ -537,7 +537,7 @@ canvas {
       color: darken($white, 40);
     }
     .date {
-      color: #399f62;
+      color: $logoblue; /*#399f62;*/
       float: right;
       display: inline-block;
       font-size: 15px;
@@ -548,7 +548,7 @@ canvas {
       display: inline-block;
       max-width: 75%;
       &:hover span {
-        border-bottom: 1px dotted $purple;
+        border-bottom: 1px dotted $logoblue;
       }
     }
   }
@@ -607,7 +607,7 @@ canvas {
   }
   a:not(.btn):not(.pagination_pager) {
     color: #399f62;
-    border-bottom: 1px dotted $purple;
+    border-bottom: 1px dotted $logoblue;
   }
   ul,
   ol {
@@ -644,7 +644,7 @@ canvas {
     font-size: 15px;
   }
   .section-line {
-    color: $purple;
+    color: $logoblue;
     position: relative;
     display: -webkit-box;
     display: -moz-box;
@@ -666,7 +666,7 @@ canvas {
       margin-left: 10px;
     }
     a {
-      color: $purple;
+      color: $logoblue;
       &:hover {
         color: #4dbe7a;
       }
@@ -898,7 +898,7 @@ canvas {
       border-radius: 0 4px 4px 0;
     }
     &:hover {
-      background-color: $purple;
+      background-color: $logoblue;
       color: $white !important;
     }
     &.disabled {
