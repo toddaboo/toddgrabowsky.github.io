@@ -132,9 +132,11 @@ canvas {
   }
   &:hover {
     border-color: $logoblue;
-    &:before,
+    &:before {
+      border-color: $logoyellow;
+    }
     &:after {
-      border-color: $logoblue;
+      border-color: $logopurple;
     }
   }
 }
