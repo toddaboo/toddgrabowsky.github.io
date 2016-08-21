@@ -606,7 +606,7 @@ canvas {
     display: block;
   }
   a:not(.btn):not(.pagination_pager) {
-    color: #399f62;
+    color: $logoblue; /*#399f62;*/
     border-bottom: 1px dotted $logoblue;
   }
   ul,
