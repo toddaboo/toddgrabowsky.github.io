@@ -670,7 +670,8 @@ canvas {
     a {
       color: $logoblue;
       &:hover {
-        color: #4dbe7a;
+        color: $logoblue; /*#4dbe7a;*/
+        border-bottom: 1px dotted $logoblue;
       }
     }
     em {
