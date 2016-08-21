@@ -865,6 +865,8 @@ canvas {
     }
     &:hover {
       background-color: darken($white, 8%);
+      color: $logoblue; /*#4dbe7a;*/
+      border-bottom: 1px dotted $logoblue;
     }
   }
 }
