@@ -454,6 +454,30 @@ canvas {
     }
   }
 }
+.blueln {
+  float: left;
+  height: 1px;
+  width: 50px;
+  border-bottom: solid 5px #27AAE1;
+}
+.yellowln {
+  float: left;
+  height: 1px;
+  width: 50px;
+  border-bottom: solid 5px #FFDE17;
+}
+.greenln {
+  float: left;
+  height: 1px;
+  width: 50px;
+  border-bottom: solid 5px #2BB673;
+}
+.redln {
+  float: left;
+  height: 1px;
+  width: 50px;
+  border-bottom: solid 5px #ED1C24;
+}
 
 #posts {
   .block-right {
