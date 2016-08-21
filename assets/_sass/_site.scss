@@ -869,7 +869,7 @@ canvas {
   }
 }
 .entry-title > a {
-  border: none !important;
+  /*border: none !important;*/
   &:hover {
     color: $logored; /*#4dbe7a;*/
     border-bottom: 1px dotted $logoblue;
