@@ -134,7 +134,7 @@ canvas {
     border-color: $logoblue;
     &:before,
     &:after {
-      border-color: $logoblue;
+      border-color: $logored;
     }
   }
 }
@@ -459,25 +459,25 @@ canvas {
   float: left;
   height: 1px;
   width: 50px;
-  border-bottom: solid 5px #27AAE1;
+  border-bottom: solid 5px $logoblue;
 }
 .yellowln {
   float: left;
   height: 1px;
   width: 50px;
-  border-bottom: solid 5px #FFDE17;
+  border-bottom: solid 5px $logoyellow;
 }
 .greenln {
   float: left;
   height: 1px;
   width: 50px;
-  border-bottom: solid 5px #2BB673;
+  border-bottom: solid 5px $logogreen;
 }
 .redln {
   float: left;
   height: 1px;
   width: 50px;
-  border-bottom: solid 5px #ED1C24;
+  border-bottom: solid 5px $logored;
 }
 
 #posts {
