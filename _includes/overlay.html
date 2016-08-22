@@ -1,4 +1,5 @@
 <div class="overlay">
+  <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/{{ site.logo | replace: '.', '-small.' }}"></a>
   <ul class="projects-menu">
     {% for item in site.data.projects %}
       {% capture image %}{{ item.image }}{% endcapture %}
