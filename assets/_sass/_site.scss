@@ -483,25 +483,25 @@ canvas {
 }
 
 #posts {
-  .logo {
-    top: 20px;
-    left: 20px;
-    position: absolute;
-    /*z-index: 10;*/
-    img {
-      width: 50px;
-      height: auto;
-    }
-    &:after {
-      display: none;
-    }
-  }
   .block-right {
     display: block;
     .content {
       height: auto;
       display: block;
       max-width: 800px;
+    }
+  }
+  .logo {
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    z-index: 2;
+    img {
+      width: 50px;
+      height: auto;
+    }
+    &:after {
+      display: none;
     }
   }
 }
