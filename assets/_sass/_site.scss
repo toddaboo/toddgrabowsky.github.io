@@ -170,6 +170,18 @@ canvas {
   &.show {
     display: block;
   }
+  .logo {
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    img {
+      width: 50px;
+      height: auto;
+    }
+    &:after {
+      display: none;
+    }
+  }
 }
 
 .projects-menu {
