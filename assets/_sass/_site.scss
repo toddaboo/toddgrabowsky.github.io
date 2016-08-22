@@ -491,7 +491,7 @@ canvas {
       max-width: 800px;
     }
   }
-  /*.logo {
+  .logo {
     top: 20px;
     left: 20px;
     position: absolute;
@@ -502,17 +502,6 @@ canvas {
     &:after {
       display: none;
     }
-  }*/
-  .logo {
-    max-width: 150px;
-    display: inline-block;
-    height: auto;
-    background-size: 100%;
-    margin: 0 auto;
-    position: relative;
-    font: 0/0 verdana;
-    color: transparent;
-    text-shadow: none;
   }
 }
 
