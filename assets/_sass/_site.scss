@@ -484,17 +484,17 @@ canvas {
 
 #posts {
   .logo {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 150px;
-    display: inline-block;
-    height: auto;
-    background-size: 100%;
-    margin: 0 auto;
-    position: relative;
-    font: 0/0 verdana;
-    color: transparent;
-    text-shadow: none;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    /*z-index: 10;*/
+    img {
+      width: 50px;
+      height: auto;
+    }
+    &:after {
+      display: none;
+    }
   }
   .block-right {
     display: block;
