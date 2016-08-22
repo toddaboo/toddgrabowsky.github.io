@@ -55,7 +55,7 @@ canvas {
   border: 2px solid $gray;
   border-radius: 3px;
   cursor: pointer;
-  z-index: 3;
+  z-index: 10;
   &:before {
     content: '';
     position: absolute;
