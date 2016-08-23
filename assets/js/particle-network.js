@@ -92,10 +92,10 @@
     this.canvas.height=window.innerHeight;
     this.canvas.style.display='block';
     // //this.setStyles(this.canvasDiv, { 'position': 'relative' });
-    this.setStyles(this.canvas, {
-      'z-index': '20',
-      'position': 'relative'
-    });
+    // this.setStyles(this.canvas, {
+      // 'z-index': '20',
+      //'position': 'relative'
+    // });
 
     // Add resize listener to canvas
     window.addEventListener('resize', function () {
