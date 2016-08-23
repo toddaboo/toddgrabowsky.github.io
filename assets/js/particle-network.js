@@ -88,10 +88,9 @@
     // Create canvas & context
     this.canvas=document.querySelector('canvas');
     this.ctx = this.canvas.getContext('2d');
-    this.canvas.width=window.innerWidth;
+    this.canvas.width=window.innerWidth/2;
     this.canvas.height=window.innerHeight;
     this.canvas.style.display='block';
-    // //this.setStyles(this.canvasDiv, { 'position': 'relative' });
     // this.setStyles(this.canvas, {
       // 'z-index': '20',
       //'position': 'relative'
@@ -106,8 +105,8 @@
       // }
 
       // Scale canvas
-      // this.canvas.width = this.canvasDiv.size.width = this.canvasDiv.offsetWidth;
-      // this.canvas.height = this.canvasDiv.size.height = this.canvasDiv.offsetHeight;
+      this.canvas.width = this.canvasDiv.size.width = this.canvasDiv.offsetWidth;
+      this.canvas.height = this.canvasDiv.size.height = this.canvasDiv.offsetHeight;
 
       // Set timeout to wait until end of resize event
       clearTimeout(this.resetTimer);
