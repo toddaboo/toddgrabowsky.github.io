@@ -88,7 +88,11 @@
     // Create canvas & context
     this.canvas=document.querySelector('canvas');
     this.ctx = this.canvas.getContext('2d');
-    this.canvas.width=window.innerWidth;
+    if (document.documentElement.clientWidth < 960) {
+      this.canvas.width=window.innerWidth;
+    } else {
+      this.canvas.width=window.innerWidth/2;
+    }
     this.canvas.height=window.innerHeight;
     this.canvas.style.display='block';
     // this.setStyles(this.canvas, {
