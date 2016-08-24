@@ -104,9 +104,9 @@
     window.addEventListener('resize', function () {
 
       // Check if div has changed size
-      // if (this.canvasDiv.offsetWidth === this.canvasDiv.size.width && this.canvasDiv.offsetHeight === this.canvasDiv.size.height) {
-      //   return false;
-      // }
+      if (this.canvasDiv.offsetWidth === this.canvasDiv.size.width && this.canvasDiv.offsetHeight === this.canvasDiv.size.height) {
+        return false;
+      }
 
       // Scale canvas
       this.canvas.width = this.canvasDiv.size.width = this.canvasDiv.offsetWidth;
