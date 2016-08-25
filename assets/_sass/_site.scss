@@ -439,6 +439,9 @@ canvas {
       display: none;
     }
   }
+  .social-btn {
+    pointer-events: auto;
+  }
 }
 
 .about-info {
@@ -512,6 +515,7 @@ canvas {
     left: 20px;
     position: absolute;
     z-index: 5;
+    pointer-events: auto;
     img {
       width: 50px;
       height: auto;
