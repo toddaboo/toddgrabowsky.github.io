@@ -307,6 +307,7 @@ canvas {
   font: 0/0 verdana;
   color: transparent;
   text-shadow: none;
+  pointer-events: auto;
 }
 
 .main-info,
@@ -422,17 +423,18 @@ canvas {
 
 .main-info {
   color: $white;
-  pointer-events: auto;
   h1 {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
+    pointer-events: auto;
   }
   h2 {
     font-size: 21px;
     line-height: 30px;
     margin: 10px 0;
     padding-top: 25px;
+    pointer-events: auto;
     &:after {
       display: none;
     }
