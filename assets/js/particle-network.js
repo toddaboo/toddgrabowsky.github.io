@@ -94,7 +94,11 @@
     } else {
       this.canvas.width=window.innerWidth/2;
     }
-    this.canvas.height=window.innerHeight;
+    if (document.documentElement.clientHeight < 960) {
+      this.canvas.width=window.innerHeight;
+    } else {
+      this.canvas.width=window.innerHeight/2;
+    }
     this.canvas.style.display='block';
     // this.setStyles(this.canvas, {
       // 'z-index': '20',
@@ -110,8 +114,16 @@
       // }
 
       // Scale canvas
-      this.canvas.width = window.innerWidth;
-      this.canvas.height = window.innerHeight;
+      this.canvas.width = if (document.documentElement.clientWidth < 960) {
+                            this.canvas.width=window.innerWidth;
+                          } else {
+                            this.canvas.width=window.innerWidth/2;
+                          }
+      this.canvas.height = if (document.documentElement.clientHeight < 960) {
+                            this.canvas.width=window.innerHeight;
+                          } else {
+                            this.canvas.width=window.innerHeight/2;
+                          }
 
       // Set timeout to wait until end of resize event
       clearTimeout(this.resetTimer);
