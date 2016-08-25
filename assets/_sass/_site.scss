@@ -639,6 +639,9 @@ canvas {
       }
     }
   }
+  em {
+    font-style: italic;
+  }
 }
 
 .demo {
@@ -822,6 +825,9 @@ canvas {
     }
     ul > li {
       margin-bottom: 10px;
+    }
+    em {
+      font-style: italic;
     }
   }
   .date-highlight {
