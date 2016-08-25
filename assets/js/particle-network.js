@@ -110,11 +110,11 @@
       // }
 
       // Scale canvas
-      this.canvas.width = if (document.documentElement.clientWidth < 960) {
-                            this.canvas.width=window.innerWidth;
-                          } else {
-                            this.canvas.width=window.innerWidth/2;
-                          }
+      if (document.documentElement.clientWidth < 960) {
+        this.canvas.width=window.innerWidth;
+      } else {
+        this.canvas.width=window.innerWidth/2;
+      }
       this.canvas.height = window.innerHeight;
 
       // Set timeout to wait until end of resize event
