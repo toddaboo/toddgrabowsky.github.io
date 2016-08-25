@@ -671,6 +671,7 @@ canvas {
     border: 1px solid rgba($white, 0.4);
     color: $white;
     font-size: 15px;
+    pointer-events: auto;
   }
   .section-line {
     color: $logoblue;
