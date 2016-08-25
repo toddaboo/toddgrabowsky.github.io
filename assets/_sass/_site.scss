@@ -175,6 +175,7 @@ canvas {
     top: 20px;
     left: 20px;
     position: absolute;
+    pointer-events: auto;
     img {
       width: 50px;
       height: auto;
