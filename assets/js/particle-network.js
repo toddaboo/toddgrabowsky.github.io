@@ -103,14 +103,14 @@
     // Add resize listener to canvas
     window.addEventListener('resize', function () {
 
-      // Check if div has changed size
-      if (this.canvasDiv.offsetWidth === this.canvasDiv.size.width && this.canvasDiv.offsetHeight === this.canvasDiv.size.height) {
+      // Check if canvas has changed size
+      if (this.canvas.offsetWidth === this.canvas.size.width && this.canvas.offsetHeight === this.canvas.size.height) {
         return false;
       }
 
       // Scale canvas
-      this.canvas.width = this.canvasDiv.size.width = this.canvasDiv.offsetWidth;
-      this.canvas.height = this.canvasDiv.size.height = this.canvasDiv.offsetHeight;
+      this.canvas.width = this.canvas.size.width = this.canvas.offsetWidth;
+      this.canvas.height = this.canvas.size.height = this.canvas.offsetHeight;
 
       // Set timeout to wait until end of resize event
       clearTimeout(this.resetTimer);
