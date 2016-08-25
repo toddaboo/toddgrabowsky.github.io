@@ -697,6 +697,7 @@ canvas {
     }
     a {
       color: $logoblue;
+      pointer-events: auto;
       &:hover {
         color: $logored; /*#4dbe7a;
         border-bottom: 1px dotted $logoblue;*/
@@ -718,7 +719,6 @@ canvas {
         height: 3px;
         background: rgba($white, 0.4);
         margin-right: 10px;
-        pointer-events: auto;
       }
       &:after {
         display: none;
