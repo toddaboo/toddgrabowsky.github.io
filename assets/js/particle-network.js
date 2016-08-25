@@ -86,6 +86,7 @@
     }
 
     // Create canvas & context
+    this.canvasDiv=document.getElementsByClassName('block-left')[0];
     this.canvas=document.querySelector('canvas');
     this.ctx = this.canvas.getContext('2d');
     if (document.documentElement.clientWidth < 960) {
@@ -104,13 +105,13 @@
     window.addEventListener('resize', function () {
 
       // Check if div has changed size
-      if (this.canvas.parentElement.offsetWidth === this.canvas.parentElement.size.width && this.canvas.parentElement.offsetHeight === this.canvas.parentElement.size.height) {
+      if (this.canvasDiv.offsetWidth === this.canvasDiv.size.width && this.canvasDiv.offsetHeight === this.canvasDiv.size.height) {
         return false;
       }
 
       // Scale canvas
-      this.canvas.width = this.canvas.parentElement.size.width = this.canvas.parentElement.offsetWidth;
-      this.canvas.height = this.canvas.parentElement.size.height = this.canvas.parentElement.offsetHeight;
+      this.canvas.width = this.canvasDiv.size.width = this.canvasDiv.offsetWidth;
+      this.canvas.height = this.canvasDiv.size.height = this.canvasDiv.offsetHeight;
 
       // Set timeout to wait until end of resize event
       clearTimeout(this.resetTimer);
