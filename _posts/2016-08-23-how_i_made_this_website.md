@@ -23,7 +23,7 @@ You've basically just copied the repository into your github account. Nice work!
 5. Open you newly forked repository and click the "Settings" tab
 ![github repo settings tab](https://pages.github.com/images/settings@2x.png)
 6. In the "Repository Name" field, type: yourusername.github.io (replace "yourusername" with your github username) and click "Rename"
-7. Now if you navigate to https://yourusername.github.io, you should see a copy of the website that you forked. Now you just need to customize it. _I say "just", but this can be the most time-intensive part. If you're anything like me, then you could spend days, weeks, even years tweaking little aesthetic or usability things. The next step at least gives you a place to start._
+7. Now if you navigate to https://yourusername.github.io, you should see a copy of the website that you forked. Now you just need to customize it. _I say "just", but this can be the most time-intensive part. If you're anything like me, then you could spend days, weeks, even years tweaking little style\*\* or usability things. The next step at least gives you a place to start._
 8. Most Jekyll themes can be customized by editing the "_config.yml" file. There are three ways to do this:
   + editing the _config.yml file direcly in the browser at github.com
   + using a third party github content editor like [Prose](http://prose.io/) by Development Seed, or
@@ -31,3 +31,5 @@ You've basically just copied the repository into your github account. Nice work!
 
 
 If you want more details, then you can check out [this more comprehensive article from Smashing Magazine](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/). Enjoy!
+
+\*\*Many thanks to [Julian Laval](http://julianlaval.com/) for the [particle network animation](https://codepen.io/JulianLaval/pen/KpLXOO/) on my homepage. 
