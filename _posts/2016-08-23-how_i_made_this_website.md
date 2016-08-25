@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Make a Website"
+title: "How I made this website"
 tags:
   - jekyll
   - website
