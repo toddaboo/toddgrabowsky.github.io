@@ -3,6 +3,7 @@
   .content {
     z-index: 1;
     position: relative;
+    pinter-events: none;
   }
 }
 
@@ -421,6 +422,7 @@ canvas {
 
 .main-info {
   color: $white;
+  pointer-events: auto;
   h1 {
     font-weight: bold;
     text-transform: uppercase;
